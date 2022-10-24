@@ -7,7 +7,7 @@
 	<title>Menu</title>  
 </head>
 <body>
-<p><a href="../view/Form.php" class="btn btn-primary btn-lg" role="button">Form</a></p>
+<p><a href="../view/form.php" class="btn btn-primary btn-lg" role="button">Form</a></p>
 
 </body>
 </html>
