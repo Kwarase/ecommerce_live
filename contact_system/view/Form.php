@@ -54,7 +54,7 @@
         echo ' <td>'.$row['pid'].'</td>';
         echo ' <td>'.$row['pname'].'</td>';
         echo ' <td>'.$row['pphoned']. '</td>';
-        echo '<td><a href="?pid='.$row['pid'].'">Update</a> <a href="../functions/delete_function.php?pid='.$row['pid'].'" >Delete</a></td>';
+        echo '<td><a href="../functions/select_function.php?pid='.$row['pid'].'">Update</a> <a href="../functions/delete_function.php?pid='.$row['pid'].'" >Delete</a></td>';
         
         //echo ' <td><input type="button" value="Update" name="Update" onclick="validate('.$row['pid'].')" class="btn btn-primary">  
         //<input type="button" value="Delete" name="Delete" onclick="validate('.$row['pid'].')" class="btn btn-danger">';
