@@ -41,8 +41,8 @@
         echo '    <tr>';
         echo '    <th scope="col">ID</th>';
         echo '    <th scope="col">Name</th>';
-        echo '    <th scope="col">phone number</th>';
-        echo ' <th scope="col">buttons</th>';
+        echo '    <th scope="col">Phone number</th>';
+        echo ' <th scope="col">Update/Delete</th>';
         echo '    </tr>';
         echo '</thead>';
     foreach( $rows as $row ){
