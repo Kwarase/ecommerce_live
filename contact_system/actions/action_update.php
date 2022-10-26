@@ -9,8 +9,7 @@ if(!update_controller($pid,$updated_full_name,$updated_phone_number)==true)
 {
     echo 'did not update';
 }else{
-    header( "Location: ../view/form.php ");
+    header( "Location: ../view/form.php");
 }
-
 
 ?>
